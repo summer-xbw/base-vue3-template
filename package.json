@@ -8,7 +8,9 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm",
-    "format": "prettier --config .prettierrc . --write"
+    "format": "prettier --config .prettierrc . --write",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.3.11"
@@ -17,10 +19,12 @@
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-vue": "^9.21.0",
+    "husky": "^9.0.7",
     "prettier": "^3.2.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
