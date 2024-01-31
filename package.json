@@ -11,7 +11,8 @@
     "format": "prettier --config .prettierrc . --write",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx",
     "lint-fix": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cz": "cz"
   },
   "dependencies": {
     "vue": "^3.3.11"
@@ -23,6 +24,8 @@
     "@typescript-eslint/parser": "^6.20.0",
     "@vitejs/plugin-vue": "^4.5.2",
     "@vue/eslint-config-typescript": "^12.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
