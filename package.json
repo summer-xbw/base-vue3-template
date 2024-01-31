@@ -13,7 +13,9 @@
     "lint-fix": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "prepare": "husky install",
     "cz": "cz",
-    "commit": "git add . && pnpm run cz"
+    "commit": "git add . && pnpm run cz",
+    "push": "git push origin-github main && git push origin-gitee main",
+    "pull": "git pull origin-github main && git pull origin-gitee main"
   },
   "dependencies": {
     "vue": "^3.3.11"
