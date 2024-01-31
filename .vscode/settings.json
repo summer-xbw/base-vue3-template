@@ -23,5 +23,6 @@
   "files.autoSave": "afterDelay",
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "liveServer.settings.multiRootWorkspaceName": "base-vue3-template"
 }
